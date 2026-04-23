@@ -1,10 +1,9 @@
 import React from 'react';
+import logo from "../assets/logo.png";
 
 const Logo = () => {
     return (
-        <div>
-            
-        </div>
+        <img src={logo} alt="logo" className="border bg-amber-300 h-5" />
     );
 };
 
